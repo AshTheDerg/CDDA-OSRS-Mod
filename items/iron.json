@@ -1,0 +1,19 @@
+[
+  {
+    "id": "material_osrs_iron_bar",
+	"looks_like": "material_aluminium_ingot",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "iron bar" },
+    "description": "It's a bar of iron.",
+    "weight": "1800 g",
+    "//": "Density 7.874g/cm³ = 1800g/206ml",
+    "volume": "228 ml",
+    "price": 28,
+    "price_postapoc": 93,
+    "material": [ "osrs_iron" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "qualities": [ [ "HAMMER", 1 ] ]
+  }
+]

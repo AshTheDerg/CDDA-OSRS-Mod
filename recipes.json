@@ -1,0 +1,228 @@
+[
+  {
+    "type": "recipe",
+	"result": "osrs_money_pouch",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+	"skill_used": "tailor",
+    "difficulty": 1,
+    "skills_required": [ "fabrication", 1 ],
+    "time": "5m",
+	"book_learn": [ [ "osrs_manual_recipes" ] ],
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "leather", 5 ] ], [ [ "filament", 5, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_dagger_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_hatchet_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_mace_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_sword_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_dart_bronze_unf",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "autolearn": true,
+	"charges": 10,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_dart_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "autolearn": true,
+	"charges": 10,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "osrs_dart_bronze_unf", 10 ] ],
+      [ [ "feather", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_scimitar_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_spear_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 1 ] ],
+	  [ [ "stick_long", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_longsword_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_knife_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "autolearn": true,
+	"charges": 5,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_warhammer_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_battleaxe_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "osrs_2h_sword_bronze",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "reversible": true,
+    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "using": [ [ "blacksmithing_standard", 1 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "material_osrs_bronze_bar", 3 ] ]
+    ]
+  }
+]

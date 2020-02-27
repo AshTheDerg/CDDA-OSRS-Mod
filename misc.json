@@ -1,0 +1,20 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "osrs_dart",
+    "name": "dart",
+    "default": "osrs_dart_bronze"
+  },
+  {
+    "type": "ammunition_type",
+	"id": "osrs_knife",
+	"name": "knives",
+	"default": "osrs_knife_bronze"
+  },
+  {
+    "type": "ammunition_type",
+	"id": "osrs_gp",
+	"name": "gp",
+	"default": "osrs_gold_piece"
+  }
+]
