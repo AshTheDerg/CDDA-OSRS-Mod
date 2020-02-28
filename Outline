@@ -1,43 +1,44 @@
+NOTE: # = Done, // = Postponed
+
 * Materials
   - Metals
-    + Bronze
+    # Bronze
     + Iron
     + Mithril
     + Adamant
     + Runite
     + Dragon
   - Woods
+    # Normal
     + Oak
     + Willow
     + Maple
     + Yew
     + Magic
   - Other
-    + Bowstring
-    + Crossbow String
-    + Flax
+    # Crossbow String
 
 * Metal Weapons
-  - Bronze
-    + Longsword
-    + (Short)Sword
-    + Dagger
-    + Mace
-    + Axe
-    + Scimitar
-    + Spear
-    + Crossbow Limbs
-    + (Throwing) Knives
-    + Warhammer
-    + Battleaxe
-    + Claws
-    + 2h Sword
-    + Bolts (Unfinished)
-    + Arrowheads
-    + Arrows
-    + Darts
-    + Hasta
-    + Pickaxe
+  # Bronze
+    # Longsword
+    # (Short)Sword
+    # Dagger
+    # Mace
+    # Axe
+    # Scimitar
+    # Spear
+    // Crossbow Limbs
+    # (Throwing) Knives
+    # Warhammer
+    # Battleaxe
+    // Claws
+    # 2h Sword
+    # Bolts (Unfinished)
+    # Arrowheads
+    # Arrows
+    # Darts
+    // Hasta
+    # Pickaxe
   - Iron
     + Longsword
     + (Short)Sword
@@ -121,9 +122,9 @@
 
 * Wooden Weapons
   - Normal
-    + Shortbow
-    + Longbow
-    + Crossbow Stock
+    # Shortbow
+    # Longbow
+    # Crossbow Stock
   - Oak
     + Shortbow
     + Longbow
@@ -147,15 +148,15 @@
 
 * Armor
   - Bronze
-    + Medium Helmet
-    + Full Helmet
-    + Square Shield
-    + Chainbody
-    + Kiteshield
-    + Platelets
-    + Plateskirt
-    + Platebody
-    + Boots
+    // Medium Helmet
+    # Full Helmet
+    # Square Shield
+    # Chainbody
+    # Kiteshield
+    # Platelegs
+    # Plateskirt
+    # Platebody
+    // Boots
   - Iron
     + Medium Helmet
     + Full Helmet
@@ -198,9 +199,9 @@
     + Boots
 
 * Other Items
-  - Gold Pieces
-  - Tinderbox
-  - Spade
+  # Gold Pieces
+  # Tinderbox
+  # Spade
 
 * Food
   - Cabbage
