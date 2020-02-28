@@ -58,5 +58,75 @@
       "draw_cost": 0
     },
     "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
+  },
+  {
+    "id": "osrs_bolt_box",
+    "type": "ARMOR",
+    "name": { "str": "bolt box", "str_pl": "bolt boxes" },
+    "description": "A leather box that can be used to store your bolts!",
+    "weight": "0 g",
+    "rigid": true,
+    "price": 0,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "looks_like": "leather_pouch",
+    "color": "brown",
+    "covers": [ "TORSO" ],
+    "coverage": 1,
+    "encumbrance": 0,
+    "material_thickness": 1,
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 250,
+      "ammo": [
+        "osrs_bolt"
+      ],
+      "draw_cost": 50
+    },
+    "flags": [ "WAIST", "OVERSIZE" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "osrs_crossbow_string",
+    "symbol": "/",
+    "color": "white",
+    "name": "crossbow string",
+    "description": "A string for a crossbow.",
+    "category": "other",
+    "price": 400,
+    "price_postapoc": 1200,
+    "material": "wood",
+    "weight": "2 g",
+    "volume": "0 L"
+  },
+  {
+    "id": "osrs_spade",
+    "type": "TOOL",
+    "name": "spade",
+    "description": "A slightly muddy spade.",
+    "weight": "1800 g",
+    "volume": "3500 ml",
+    "price": 14600,
+    "material": [ "steel", "wood" ],
+    "symbol": "/",
+    "color": "brown",
+    "qualities": [ [ "DIG", 3 ] ]
+  },
+  {
+    "id": "osrs_tinderbox",
+    "type": "TOOL",
+    "name": { "str": "tinderbox", "str_pl": "tinderboxes" },
+    "description": "Useful for lighting a fire.",
+    "weight": "35 g",
+    "volume": "250 ml",
+    "price": 3700,
+    "to_hit": -1,
+    "material": [ "cardboard" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "use_action": { "type": "firestarter", "moves": 1000, "moves_slow": 5000 },
+    "flags": [ "FIRESTARTER" ]
   }
 ]
