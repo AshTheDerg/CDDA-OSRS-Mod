@@ -3,15 +3,15 @@ NOTE: # = Done, // = Postponed
 * Materials
   - Metals
     # Bronze
-    + Iron
+    # Iron
     + Mithril
     + Adamant
     + Runite
     + Dragon
   - Woods
     # Normal
-    + Oak
-    + Willow
+    // Oak
+    # Willow
     + Maple
     + Yew
     + Magic
@@ -27,7 +27,7 @@ NOTE: # = Done, // = Postponed
     # Axe
     # Scimitar
     # Spear
-    // Crossbow Limbs
+    # Crossbow Limbs
     # (Throwing) Knives
     # Warhammer
     # Battleaxe
@@ -40,25 +40,25 @@ NOTE: # = Done, // = Postponed
     // Hasta
     # Pickaxe
   - Iron
-    + Longsword
-    + (Short)Sword
-    + Dagger
-    + Mace
-    + Axe
-    + Scimitar
-    + Spear
-    + Crossbow Limbs
-    + (Throwing) Knives
-    + Warhammer
-    + Battleaxe
-    + Claws
-    + 2h Sword
-    + Bolts (Unfinished)
-    + Arrowheads
-    + Arrows
-    + Darts
-    + Hasta
-    + Pickaxe
+    # Longsword
+    # (Short)Sword
+    # Dagger
+    # Mace
+    # Axe
+    # Scimitar
+    # Spear
+    # Crossbow Limbs
+    # (Throwing) Knives
+    # Warhammer
+    # Battleaxe
+    // Claws
+    # 2h Sword
+    # Bolts (Unfinished)
+    # Arrowheads
+    # Arrows
+    # Darts
+    // Hasta
+    # Pickaxe
   - Mithril
     + Longsword
     + (Short)Sword
@@ -158,22 +158,22 @@ NOTE: # = Done, // = Postponed
     # Platebody
     // Boots
   - Iron
-    + Medium Helmet
-    + Full Helmet
-    + Square Shield
-    + Chainbody
-    + Kiteshield
-    + Platelets
-    + Plateskirt
-    + Platebody
-    + Boots
+    // Medium Helmet
+    # Full Helmet
+    # Square Shield
+    # Chainbody
+    # Kiteshield
+    # Platelegs
+    # Plateskirt
+    # Platebody
+    // Boots
   - Mithril
     + Medium Helmet
     + Full Helmet
     + Square Shield
     + Chainbody
     + Kiteshield
-    + Platelets
+    + Platelegs
     + Plateskirt
     + Platebody
     + Boots
@@ -183,7 +183,7 @@ NOTE: # = Done, // = Postponed
     + Square Shield
     + Chainbody
     + Kiteshield
-    + Platelets
+    + Platelegs
     + Plateskirt
     + Platebody
     + Boots
@@ -193,7 +193,7 @@ NOTE: # = Done, // = Postponed
     + Square Shield
     + Chainbody
     + Kiteshield
-    + Platelets
+    + Platelegs
     + Plateskirt
     + Platebody
     + Boots
