@@ -2,6 +2,7 @@
   {
     "type": "GENERIC",
     "id": "material_osrs_logs_wood",
+	"looks_like": "log",
     "symbol": "/",
     "color": "brown",
     "name": "logs",
@@ -9,7 +10,7 @@
     "category": "other",
     "price": 400,
     "price_postapoc": 1200,
-    "material": "wood",
+    "material": "osrs_wood",
     "weight": "2000 g",
     "volume": "10 L",
     "bashing": 10,
@@ -19,6 +20,7 @@
   {
     "type": "GENERIC",
     "id": "osrs_shortbow_unf_wood",
+    "looks_like": "shortbow",
     "name": "shortbow (u)",
     "description": "You need to find a string for this.",
     "category": "spare_parts",
@@ -34,7 +36,7 @@
   },
   {
     "id": "osrs_shortbow_wood",
-    "looks_like": "longbow",
+    "looks_like": "shortbow",
     "type": "GUN",
     "symbol": "(",
     "color": "yellow",
@@ -80,6 +82,7 @@
     "type": "GENERIC",
     "id": "osrs_longbow_unf_wood",
     "name": "longbow (u)",
+    "looks_like": "longbow",
     "description": "You need to find a string for this.",
     "category": "spare_parts",
     "weight": "1300 g",
@@ -94,6 +97,7 @@
   },
   {
     "id": "osrs_longbow_wood",
+    "looks_like": "longbow",
     "type": "GUN",
     "symbol": "(",
     "color": "brown",

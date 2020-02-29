@@ -8,8 +8,7 @@
     "difficulty": 1,
     "skills_required": [ "fabrication", 1 ],
     "time": "5m",
-	"book_learn": [ [ "osrs_manual_recipes" ] ],
-    "autolearn": true,
+	"book_learn": [ [ "osrs_manual_recipes_misc" ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
     "components": [ [ [ "leather", 5 ] ], [ [ "filament", 5, "LIST" ] ] ]
   },
@@ -22,8 +21,7 @@
     "difficulty": 1,
     "skills_required": [ "fabrication", 1 ],
     "time": "5m",
-	"book_learn": [ [ "osrs_manual_recipes" ] ],
-    "autolearn": true,
+	"book_learn": [ [ "osrs_manual_recipes_misc" ] ],
     "qualities": [ { "id": "SEW", "level": 1 } ],
     "components": [ [ [ "leather", 5 ] ], [ [ "filament", 5, "LIST" ] ] ]
   },
@@ -35,7 +33,7 @@
     "skill_used": "fabrication",
     "difficulty": 1,
     "time": "5 m",
-    "book_learn": [ [ "osrs_manual_recipes" ] ],
+    "book_learn": [ [ "osrs_manual_recipes_misc" ] ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "components": [ [ [ "sinew", 1 ] ] ]
   }
