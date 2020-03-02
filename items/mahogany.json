@@ -5,7 +5,7 @@
 	"looks_like": "log",
     "symbol": "/",
     "color": "brown",
-    "name": "mahogany logs",
+    "name": { "str": "mahogany logs", "str_pl": "mahogany logs" },
     "description": "Some well-cut mahogany logs.",
     "category": "other",
     "price": 5000,

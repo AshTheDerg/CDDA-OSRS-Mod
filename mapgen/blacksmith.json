@@ -18,10 +18,10 @@
         "        xxx  xxx        ",
         "        xt....tx        ",
         "        xt....tx        ",
-        "        xc.....x        ",
-        "         ......x        ",
-        "         ......x        ",
-        "        x.....bx        ",
+        "        xc....Rx        ",
+        "         .....Rx        ",
+        "         .....Rx        ",
+        "        xB....bx        ",
         "        x...a.fx        ",
         "        xrr.xxxx        ",
         "        xxxxx           ",
@@ -36,7 +36,10 @@
       "terrain": {
 	    " ": "t_grass",
 		"x": "t_rock_wall",
-		".": "t_metal_floor"
+		".": "t_metal_floor",
+		"f": "t_metal_floor",
+		"a": "t_metal_floor",
+		"B": "t_metal_floor"
 	  },
 	  "furniture": {
 		"f": "f_forge_rock",
@@ -44,8 +47,16 @@
 		"b": "f_bellows",
 		"t": "f_workbench",
 		"c": "f_crate_o",
-		"r": "f_counter"
-      }
+		"r": "f_counter",
+		"R": "f_rack",
+		"B": "f_bookcase"
+      },
+	  "place_loot": [
+	    { "group": "osrs_materials", "x": 9, "y": 10, "chance": 100, "repeat": 5 },
+		{ "group": "osrs_tools", "x": 14, "y": [ 10, 11 ], "chance": 100, "repeat": 2 },
+		{ "group": "osrs_misc_money", "x": 14, "y": 12, "chance": 100, "repeat": 5 },
+		{ "group": "osrs_books", "x": 9, "y": 13, "chance": 100, "repeat": 2 }
+	  ]	
     }
   },
   {

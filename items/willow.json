@@ -5,7 +5,7 @@
 	"looks_like": "log",
     "symbol": "/",
     "color": "yellow",
-    "name": "willow logs",
+    "name": { "str": "willow logs", "str_pl": "willow logs" },
     "description": "Logs cut from a willow tree.",
     "category": "other",
     "price": 4000,

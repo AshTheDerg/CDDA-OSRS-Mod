@@ -5,7 +5,7 @@
 	"looks_like": "log",
     "symbol": "/",
     "color": "red",
-    "name": "maple logs",
+    "name": { "str": "maple logs", "str_pl": "maple_logs" },
     "description": "Logs cut from a maple tree.",
     "category": "other",
     "price": 8000,

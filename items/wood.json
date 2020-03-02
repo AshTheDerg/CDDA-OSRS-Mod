@@ -5,7 +5,7 @@
 	"looks_like": "log",
     "symbol": "/",
     "color": "brown",
-    "name": "logs",
+    "name": { "str": "logs", "str_pl": "logs" },
     "description": "A number of wooden logs.",
     "category": "other",
     "price": 400,

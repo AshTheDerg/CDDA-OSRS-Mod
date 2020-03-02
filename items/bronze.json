@@ -44,7 +44,7 @@
     "symbol": ";",
     "color": "brown",
     "name": "bronze axe",
-    "description": "A material_osrs_logs_woodcutter's axe.",
+    "description": "A woodcutter's axe.",
     "price": 1600,
     "price_postapoc": 9700,
     "material": [ "osrs_bronze", "osrs_wood" ],
