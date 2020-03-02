@@ -121,5 +121,23 @@
     "clip_size": 1,
     "reload": 70,
     "valid_mod_locations": [ [ "dampening", 1 ] ]
+  },
+  {
+    "id": "osrs_arrowshaft_wood",
+	"looks_like": "stick",
+	"type": "AMMO",
+	"name": { "str": "arrow shaft", "str_pl": "arrow shafts" },
+	"symbol": "=",
+	"color": "brown",
+	"description": "A wooden arrow shaft.",
+	"material": "osrs_wood",
+	"volume": "1 ml",
+	"weight": "0 g",
+	"ammo_type": "arrow",
+	"prop_damage": 0,
+	"dispersion": 1000,
+	"loudness": 0,
+	"count": 15,
+	"price": 100
   }
 ]

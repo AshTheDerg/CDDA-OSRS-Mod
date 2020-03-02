@@ -245,7 +245,7 @@
 	"charges": 10,
     "book_learn": [ [ "osrs_manual_recipes_bronze" ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "osrs_arrowhead_bronze", 15 ] ], [ [ "feather", 15 ] ] ]
+    "components": [ [ [ "osrs_arrowhead_bronze", 15 ] ], [ [ "osrs_arrowshaft_wood", 15 ] ], [ [ "feather", 15 ] ] ]
   },
   {
     "result": "osrs_helmet_full_bronze",

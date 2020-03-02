@@ -9,8 +9,8 @@
     "weight": "1800 g",
     "//": "Density 7.874g/cm³ = 1800g/206ml",
     "volume": "228 ml",
-    "price": 28,
-    "price_postapoc": 93,
+    "price": 2800,
+    "price_postapoc": 9300,
     "material": [ "osrs_iron" ],
     "symbol": ",",
     "color": "light_gray",
@@ -33,7 +33,7 @@
     "color": "dark_gray",
     "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ],
     "techniques": "RAPID",
-    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 4 ] ],
+    "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 2 ], [ "BUTCHER", 6 ] ],
     "thrown_damage": [ { "damage_type": "stab", "amount": 4 } ],
     "flags": [ "STAB", "SHEATH_KNIFE" ]
   },
@@ -44,10 +44,10 @@
     "symbol": ";",
     "color": "dark_gray",
     "name": "iron axe",
-    "description": "A material_osrs_logs_willowcutter's axe.",
+    "description": "A woodcutter's axe.",
     "price": 5600,
     "price_postapoc": 2900,
-    "material": [ "osrs_iron", "osrs_willow" ],
+    "material": [ "osrs_iron", "osrs_wood" ],
     "techniques": [ "WBLOCK_1" ],
     "weight": "1300 g",
     "volume": "1 L",
@@ -56,7 +56,7 @@
     "flags": [ "BELT_CLIP", "SHEATH_AXE" ],
     "to_hit": 1,
     "category": "weapons",
-    "qualities": [ [ "AXE", 1 ], [ "CUT", 1 ], [ "HAMMER", 1 ], [ "HAMMER_FINE", 1 ], [ "BUTCHER", 4 ] ]
+    "qualities": [ [ "AXE", 2 ], [ "CUT", 2 ], [ "HAMMER", 2 ], [ "HAMMER_FINE", 2 ], [ "BUTCHER", 6 ] ]
   },
   {
     "type": "GENERIC",
@@ -69,14 +69,14 @@
     "to_hit": 1,
     "color": "dark_gray",
     "symbol": "/",
-    "material": [ "osrs_iron", "osrs_willow" ],
+    "material": [ "osrs_iron", "osrs_wood" ],
     "techniques": [ "SWEEP" ],
     "flags": [ "DURABLE_MELEE", "BELT_CLIP" ],
     "volume": "1250 ml",
     "bashing": 9,
 	"cutting": 4,
     "price": 3000,
-    "qualities": [ [ "HAMMER", 1 ] ]
+    "qualities": [ [ "HAMMER", 2 ] ]
   },
   {
     "id": "osrs_sword_iron",
@@ -93,7 +93,7 @@
     "symbol": "/",
     "color": "dark_gray",
     "techniques": [ "WBLOCK_2" ],
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 4 ] ],
+    "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 6 ] ],
     "flags": [ "SHEATH_SWORD" ]
   },
   {
@@ -145,7 +145,7 @@
     "cutting": 12,
     "to_hit": 1,
     "category": "weapons",
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ]
+    "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 10 ] ]
   },
   {
     "type": "GENERIC",
@@ -158,14 +158,14 @@
     "to_hit": 2,
     "color": "dark_gray",
     "symbol": "/",
-    "material": [ "osrs_iron", "osrs_willow" ],
+    "material": [ "osrs_iron", "osrs_wood" ],
     "techniques": [ "WBLOCK_1", "IMPALE" ],
     "volume": "3 L",
     "bashing": 8,
     "cutting": 16,
     "flags": [ "SPEAR", "REACH_ATTACK", "SHEATH_SPEAR" ],
     "price": 1900,
-    "qualities": [ [ "COOK", 1 ] ]
+    "qualities": [ [ "COOK", 2 ] ]
   },
   {
     "id": "osrs_longsword_iron",
@@ -183,7 +183,7 @@
     "volume": "2750 ml",
     "cutting": 9,
     "category": "weapons",
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 4 ] ]
+    "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 6 ] ]
   },
   {
     "type": "AMMO",
@@ -212,13 +212,13 @@
     "to_hit": 1,
     "color": "dark_gray",
     "symbol": "/",
-    "material": [ "osrs_iron", "osrs_willow" ],
+    "material": [ "osrs_iron", "osrs_wood" ],
     "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
     "flags": [ "BELT_CLIP" ],
     "volume": "1250 ml",
     "bashing": 11,
     "price": 2900,
-    "qualities": [ [ "HAMMER", 1 ] ]
+    "qualities": [ [ "HAMMER", 2 ] ]
   },
   {
     "id": "osrs_battleaxe_iron",
@@ -233,11 +233,11 @@
     "to_hit": 1,
     "bashing": 5,
     "cutting": 8,
-    "material": [ "osrs_iron", "osrs_willow" ],
+    "material": [ "osrs_iron", "osrs_wood" ],
     "symbol": "/",
     "color": "dark_gray",
     "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
-    "qualities": [ [ "AXE", 2 ], [ "BUTCHER", -20 ] ],
+    "qualities": [ [ "AXE", 4 ], [ "BUTCHER", -18 ] ],
     "flags": [ "SHEATH_AXE" ]
   },
   {
@@ -256,7 +256,7 @@
     "symbol": "/",
     "color": "dark_gray",
     "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 4 ] ],
+    "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 6 ] ],
     "flags": [ "SHEATH_SWORD", "ALWAYS_TWOHAND" ]
   },
   {
@@ -307,7 +307,7 @@
     "to_hit": -3,
     "bashing": 3,
     "cutting": 5,
-    "material": [ "osrs_willow", "osrs_iron" ],
+    "material": [ "osrs_wood", "osrs_iron" ],
     "symbol": "/",
     "color": "dark_gray",
     "use_action": "PICKAXE",

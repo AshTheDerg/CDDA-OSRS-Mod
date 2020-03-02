@@ -162,5 +162,39 @@
     "max_level": 3,
     "intelligence": 5,
     "time": "30 m"
+  },
+  {
+    "id": "osrs_manual_recipes_mithril",
+    "type": "BOOK",
+    "name": { "str": "Noob's Guide to Mithril Crafting", "str_pl": "copies of Noob's Guide to Mithril Crafting" },
+    "description": "A large, hardback book detailing several items that can be made with mithril and maple.",
+    "weight": "510 g",
+    "volume": "750 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "green",
+    "skill": "fabrication",
+    "max_level": 3,
+    "intelligence": 5,
+    "time": "30 m"
+  },
+  {
+    "id": "osrs_manual_recipes_adamant",
+    "type": "BOOK",
+    "name": { "str": "Noob's Guide to Adamant Crafting", "str_pl": "copies of Noob's Guide to Adamant Crafting" },
+    "description": "A large, hardback book detailing several items that can be made with adamantite and mahogany.",
+    "weight": "510 g",
+    "volume": "750 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "green",
+    "skill": "fabrication",
+    "max_level": 3,
+    "intelligence": 5,
+    "time": "30 m"
   }
 ]
