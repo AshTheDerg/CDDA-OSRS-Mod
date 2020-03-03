@@ -104,7 +104,7 @@
     "name": { "str": "longbow" },
     "description": "A nice sturdy bow.",
     "price": 4100,
-    "material": "wood",
+    "material": "osrs_wood",
     "flags": [ "FIRE_TWOHAND", "STR_DRAW", "RELOAD_AND_SHOOT", "PRIMITIVE_RANGED_WEAPON", "BELTED", "WATER_FRIENDLY" ],
     "skill": "archery",
     "min_strength": 5,

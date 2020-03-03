@@ -116,7 +116,7 @@
         "                        ",
         "                        ",
         "        xxxdxxxx        ",
-        "        x.....cx        ",
+        "        xB...RRx        ",
         "        x...a..x        ",
         "        x......x        ",
         "        d...a.cx        ",
@@ -137,14 +137,26 @@
 	    " ": "t_grass",
 		"x": "t_rock_wall",
 		".": "t_metal_floor",
-		"d": "t_door_c"
+		"d": "t_door_c",
+		"a": "t_metal_floor",
+		"h": "t_metal_floor",
+		"B": "t_metal_floor",
+		"R": "t_metal_floor"
 	  },
 	  "furniture": {
 		"a": "f_anvil",
 		"t": "f_workbench",
 		"c": "f_crate_o",
-		"h": "f_chair"
-      }
+		"h": "f_chair",
+		"B": "f_bookcase",
+		"R": "f_rack"
+      },
+	  "place_loot": [
+	    { "group": "osrs_materials", "x": 14, "y": [ 11, 12 ], "chance": 100, "repeat": 5 },
+		{ "group": "osrs_tools", "x": 13, "y": 8, "chance": 100, "repeat": 2 },
+		{ "group": "osrs_misc_money", "x": 14, "y": 8, "chance": 100, "repeat": 5 },
+		{ "group": "osrs_books", "x": 9, "y": 8, "chance": 100, "repeat": 2 }
+	  ]
     }
   },
   {

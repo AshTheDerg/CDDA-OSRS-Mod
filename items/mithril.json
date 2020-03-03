@@ -80,6 +80,7 @@
   },
   {
     "id": "osrs_sword_mithril",
+	"looks_like": "arming_sword",
     "type": "GENERIC",
     "category": "weapons",
     "name": { "str": "mithril sword" },

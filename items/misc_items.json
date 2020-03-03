@@ -86,6 +86,7 @@
   },
   {
     "id": "osrs_spade",
+	"looks_like": "shovel",
     "type": "TOOL",
     "name": "spade",
     "description": "A slightly muddy spade.",
@@ -99,6 +100,7 @@
   },
   {
     "id": "osrs_tinderbox",
+	"looks_like": "tinderbox",
     "type": "TOOL",
     "name": { "str": "tinderbox", "str_pl": "tinderboxes" },
     "description": "Useful for lighting a fire.",
@@ -114,6 +116,7 @@
   },
   {
     "id": "osrs_manual_recipes_misc",
+	"looks_like": "manual_fabrication",
     "type": "BOOK",
     "name": { "str": "Noob's Guide to Crafting", "str_pl": "copies of Noob's Guide to Crafting" },
     "description": "A large, hardback book detailing several items that can be made with ease.",
@@ -131,9 +134,10 @@
   },
   {
     "id": "osrs_manual_recipes_bronze",
+	"looks_like": "manual_fabrication",
     "type": "BOOK",
     "name": { "str": "Noob's Guide to Bronze Crafting", "str_pl": "copies of Noob's Guide to Bronze Crafting" },
-    "description": "A large, hardback book detailing several items that can be made with bronze and wood.",
+    "description": "A large, hardback book detailing several items that can be made with bronze, wood, and oak.",
     "weight": "510 g",
     "volume": "750 ml",
     "price": 0,
@@ -148,6 +152,7 @@
   },
   {
     "id": "osrs_manual_recipes_iron",
+	"looks_like": "manual_fabrication",
     "type": "BOOK",
     "name": { "str": "Noob's Guide to Iron Crafting", "str_pl": "copies of Noob's Guide to Iron Crafting" },
     "description": "A large, hardback book detailing several items that can be made with iron and willow.",
@@ -165,6 +170,7 @@
   },
   {
     "id": "osrs_manual_recipes_mithril",
+	"looks_like": "manual_fabrication",
     "type": "BOOK",
     "name": { "str": "Noob's Guide to Mithril Crafting", "str_pl": "copies of Noob's Guide to Mithril Crafting" },
     "description": "A large, hardback book detailing several items that can be made with mithril and maple.",
@@ -182,9 +188,28 @@
   },
   {
     "id": "osrs_manual_recipes_adamant",
+	"looks_like": "manual_fabrication",
     "type": "BOOK",
     "name": { "str": "Noob's Guide to Adamant Crafting", "str_pl": "copies of Noob's Guide to Adamant Crafting" },
     "description": "A large, hardback book detailing several items that can be made with adamantite and mahogany.",
+    "weight": "510 g",
+    "volume": "750 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "green",
+    "skill": "fabrication",
+    "max_level": 3,
+    "intelligence": 5,
+    "time": "30 m"
+  },
+  {
+    "id": "osrs_manual_recipes_runite",
+	"looks_like": "manual_fabrication",
+    "type": "BOOK",
+    "name": { "str": "Noob's Guide to Runite Crafting", "str_pl": "copies of Noob's Guide to Runite Crafting" },
+    "description": "A large, hardback book detailing several items that can be made with runite and yew.",
     "weight": "510 g",
     "volume": "750 ml",
     "price": 0,

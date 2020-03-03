@@ -79,6 +79,7 @@
   },
   {
     "id": "osrs_sword_bronze",
+	"looks_like": "arming_sword",
     "type": "GENERIC",
     "category": "weapons",
     "name": { "str": "bronze sword" },
