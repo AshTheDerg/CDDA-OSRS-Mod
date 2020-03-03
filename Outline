@@ -10,11 +10,11 @@ NOTE: # = Done, // = Postponed
     + Dragon
   - Woods
     # Normal
-    // Oak
+    # Oak
     # Willow
     # Maple
     # Mahogany
-    + Yew
+    # Yew
     + Magic
   - Other
     # Crossbow String
@@ -101,25 +101,25 @@ NOTE: # = Done, // = Postponed
     // Hasta
     # Pickaxe
   - Runite
-    + Longsword
-    + (Short)Sword
-    + Dagger
-    + Mace
-    + Axe
-    + Scimitar
-    + Spear
-    + Crossbow Limbs
-    + (Throwing) Knives
-    + Warhammer
-    + Battleaxe
-    + Claws
-    + 2h Sword
-    + Bolts (Unfinished)
-    + Arrowheads
-    + Arrows
-    + Darts
-    + Hasta
-    + Pickaxe
+    # Longsword
+    # (Short)Sword
+    # Dagger
+    # Mace
+    # Axe
+    # Scimitar
+    # Spear
+    # Crossbow Limbs
+    # (Throwing) Knives
+    # Warhammer
+    # Battleaxe
+    // Claws
+    # 2h Sword
+    # Bolts (Unfinished)
+    # Arrowheads
+    # Arrows
+    # Darts
+    // Hasta
+    # Pickaxe
 
 * Wooden Weapons
   - Normal
@@ -127,8 +127,8 @@ NOTE: # = Done, // = Postponed
     # Longbow
     # Crossbow Stock
   - Oak
-    // Shortbow
-    // Longbow
+    # Shortbow
+    # Longbow
     // Crossbow Stock
   - Willow
     # Shortbow
@@ -141,9 +141,9 @@ NOTE: # = Done, // = Postponed
   - Mahogany
     # Crossbow Stock
   - Yew
-    + Shortbow
-    + Longbow
-    + Crossbow Stock
+    # Shortbow
+    # Longbow
+    # Crossbow Stock
   - Magic
     + Shortbow
     + Longbow
@@ -190,15 +190,15 @@ NOTE: # = Done, // = Postponed
     # Platebody
     // Boots
   - Runite
-    + Medium Helmet
-    + Full Helmet
-    + Square Shield
-    + Chainbody
-    + Kiteshield
-    + Platelegs
-    + Plateskirt
-    + Platebody
-    + Boots
+    # Medium Helmet
+    # Full Helmet
+    # Square Shield
+    # Chainbody
+    # Kiteshield
+    # Platelegs
+    # Plateskirt
+    # Platebody
+    // Boots
 
 * Other Items
   # Gold Pieces
