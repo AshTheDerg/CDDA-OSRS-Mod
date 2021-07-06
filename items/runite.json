@@ -110,7 +110,8 @@
     "volume": "1 ml",
     "weight": "0 g",	
     "ammo_type": "osrs_dart",
-	"count": 10
+	"count": 10,
+	"flags": [ "ZERO_WEIGHT" ]
   },
   {
     "type": "AMMO",
@@ -124,7 +125,7 @@
     "description": "A deadly throwing dart with a rune tip.",
     "material": [ "osrs_runite" ],
     "volume": "1 ml",
-    "weight": "0 g",
+    "weight": "15 g",
 	"ammo_type": "osrs_dart",
 	"count": 10,
     "thrown_damage": [ { "damage_type": "stab", "amount": 29 } ]
@@ -198,7 +199,7 @@
     "description": "A finely balanced throwing knife.",
     "material": "osrs_runite",
     "volume": "1 ml",
-    "weight": "0 g",
+    "weight": "15 g",
 	"ammo_type": "osrs_knife",
 	"count": 5,
     "thrown_damage": [ { "damage_type": "stab", "amount": 49 } ]
@@ -273,7 +274,8 @@
     "volume": "1 ml",
     "weight": "0 g",	
     "ammo_type": "osrs_bolt",
-	"count": 10
+	"count": 10,
+	"flags": [ "ZERO_WEIGHT" ]
   },
   {
     "type": "AMMO",
@@ -286,10 +288,10 @@
     "description": "runite crossbow bolts.",
     "material": "osrs_runite",
     "volume": "1 ml",
-    "weight": "0 g",
+    "weight": "20 g",
     "ammo_type": "osrs_bolt",
 	"bashing": 115,
-    "pierce": 2,
+    "damage": { "damage_type": "stab", "armor_penetration": 7 },
     "dispersion": 100,
     "loudness": 0,
     "count": 10,
@@ -328,7 +330,8 @@
     "volume": "1 ml",
     "weight": "0 g",	
     "ammo_type": "arrow",
-	"count": 15
+	"count": 15,
+	"flags": [ "ZERO_WEIGHT" ]
   },
   {
     "type": "AMMO",
@@ -341,11 +344,10 @@
     "description": "Arrows with rune heads.",
     "material": [ "osrs_runite" ],
     "volume": "1 ml",
-    "weight": "0 g",
+    "weight": "20 g",
     "cutting": 49,
     "ammo_type": "arrow",
-    "prop_damage": 1.25,
-    "pierce": 1,
+    "damage": { "damage_type": "stab", "armor_penetration": 8, "constant_damage_multiplier": 1.5 },
     "range": 4,
     "dispersion": 75,
     "loudness": 0,
@@ -530,7 +532,7 @@
     "ammo": "osrs_bolt",
     "weight": "6000 g",
     "volume": "500 ml",
-    "ranged_damage": 90,
+    "ranged_damage": { "damage_type": "stab", "amount": 60 },
     "range": 10,
     "dispersion": 400,
     "clip_size": 1,

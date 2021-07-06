@@ -12,7 +12,8 @@
     "material": [ "gold" ],
     "symbol": "o",
     "color": "yellow",
-    "use_action": "COIN_FLIP"
+    "use_action": "COIN_FLIP",
+	"flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "osrs_money_pouch",
@@ -20,7 +21,6 @@
     "name": { "str": "money pouch", "str_pl": "money pouches" },
     "description": "A small pouch that can be used to store your precious gold!",
     "weight": "0 g",
-    "rigid": true,
     "price": 0,
     "to_hit": 1,
     "bashing": 1,
@@ -32,15 +32,17 @@
     "coverage": 1,
     "encumbrance": 0,
     "material_thickness": 1,
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 9999999,
-      "ammo": [
-        "osrs_gp"
-      ],
-      "draw_cost": 0
-    },
-    "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
+    "pocket_data": [
+      {
+        "ammo_restriction": {
+			"osrs_gp": 99999
+        },        
+		"watertight": true,
+        "rigid": true,
+        "moves": 30
+      }
+    ],
+    "flags": [ "WAIST", "OVERSIZE", "ZERO_WEIGHT", "TARDIS" ]
   },
   {
     "id": "osrs_bolt_box",
@@ -48,7 +50,7 @@
     "name": { "str": "bolt box", "str_pl": "bolt boxes" },
     "description": "A leather box that can be used to store your bolts!",
     "weight": "0 g",
-    "rigid": true,
+	"volume": "250 ml",
     "price": 0,
     "to_hit": 1,
     "bashing": 1,
@@ -60,15 +62,17 @@
     "coverage": 1,
     "encumbrance": 0,
     "material_thickness": 1,
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 250,
-      "ammo": [
-        "osrs_bolt"
-      ],
-      "draw_cost": 50
-    },
-    "flags": [ "WAIST", "OVERSIZE" ]
+    "pocket_data": [
+      {
+        "ammo_restriction": {
+			"osrs_bolt": 250
+        },
+		"watertight": true,
+        "rigid": true,
+        "moves": 30
+      }
+    ],
+    "flags": [ "WAIST", "OVERSIZE", "ZERO_WEIGHT" ]
   },
   {
     "type": "GENERIC",
@@ -82,7 +86,8 @@
     "price_postapoc": 1200,
     "material": "wood",
     "weight": "2 g",
-    "volume": "0 L"
+    "volume": "0 L",
+	"flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "osrs_spade",

@@ -53,7 +53,7 @@
     "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "material_thickness": 1, "encumbrance": 14 },
     "reload_noise_volume": 3,
     "loudness": 6,
-    "ranged_damage": 8,
+    "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "range": 10,
     "dispersion": 1000,
     "durability": 6,
@@ -115,7 +115,7 @@
     "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "material_thickness": 1, "encumbrance": 20 },
     "reload_noise_volume": 3,
     "loudness": 8,
-    "ranged_damage": 8,
+    "ranged_damage": { "damage_type": "stab", "amount": 7 },
     "range": 18,
     "dispersion": 1000,
     "clip_size": 1,
@@ -134,10 +134,11 @@
 	"volume": "1 ml",
 	"weight": "0 g",
 	"ammo_type": "arrow",
-	"prop_damage": 0,
+    "damage": { "damage_type": "stab", "armor_penetration": 0, "constant_damage_multiplier": 0.1 },
 	"dispersion": 1000,
 	"loudness": 0,
 	"count": 15,
-	"price": 100
+	"price": 100,
+	"flags": [ "ZERO_WEIGHT" ]
   }
 ]
