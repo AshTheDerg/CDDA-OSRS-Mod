@@ -1,0 +1,39 @@
+[
+  {
+	"type": "profession",
+	"id": "osrs_adventurer",
+	"name": "Adventurer",
+	"description": "Torn from your home plane, you're thrust into this hellhole with only the few coins you had, and your trusty gear.",
+	"points": 3,
+	"skills": [
+      { "level": 2, "name": "cooking" },
+      { "level": 2, "name": "melee" },
+	  { "level": 2, "name": "archery" },
+	  { "level": 4, "name": "fabrication" }
+	],
+	"proficiencies": [ "prof_metalworking", "prof_blacksmithing" ],
+	"items": {
+		"both": {
+			"items": [
+			"tshirt",
+			"osrs_chainmail_bronze",
+			"jeans",
+			"socks",
+			"boots",
+			"osrs_sword_bronze",
+			"osrs_hatchet_bronze",
+			"osrs_pickaxe_bronze",
+			"osrs_tinderbox",
+			"osrs_spade",
+			"osrs_manual_recipes_misc",
+			"osrs_manual_recipes_bronze",
+			"hammer",
+			"backpack",
+			"scabbard" ],
+			"entries": [ { "item": "osrs_gold_piece", "charges": 50, "container-item": "osrs_money_pouch" } ]
+		},
+        "male": [ "boxer_shorts" ],
+        "female": [ "bra", "boy_shorts" ]
+	}
+  }		
+]
